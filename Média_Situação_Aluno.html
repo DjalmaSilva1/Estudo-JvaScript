@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div>
+            <div><h1>Programa Situação do Aluno</h1></div>
+            <div>
+                <p>
+                    <label>Nome do Aluno:</label>
+                    <input type="text" id="inNome">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label>1ª Nota:</label>
+                    <input type="text" id="inNota1">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label>2ª Nota:</label>
+                    <input type="text" id="inNota2">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <input 
+                    style="
+                    color: white; 
+                    background-color: rgb(230, 76, 204); 
+                    padding: 6px; border-radius: 6px;
+                    margin: 20px;"
+
+                    type="Button" 
+                    Value="Exibir Média e Situação" 
+                    id="btResultado"
+                    >
+                </p>
+            </div>
+            <div><h3 id="outMedia"></h3></div>
+            <div><h3 id="outSituacao"></h3></div>
+            <script src="./3_js/aluno_ex3_1.js"></script>
+        </div>
+</body>
+<style>
+    label{ 
+        display: inline-block;
+        width: 100px;
+    }
+    input{
+        border: none;
+        border-bottom: 1px solid rgb(85, 85, 85);
+        padding: 5px;
+    }
+</style>
+</html>
