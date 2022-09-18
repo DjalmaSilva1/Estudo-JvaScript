@@ -1,0 +1,36 @@
+img{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+}
+h1{
+    border-bottom-style: inset;
+    margin: 5px;
+    color: linear-gradient(90deg, rgba(2, 0, 36, 1)0%, rgba(9, 9, 121, 1)0%, rgba(0, 212, 255, 1)100%);
+}
+label{ 
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+    color: white;
+}
+input{
+    border: none;
+    border-bottom: 1px solid rgb(85, 85, 85);
+    padding: 5px;
+    margin: 5px;
+    color: none;
+}
+h3{
+    justify-content: center;
+    color: white;
+}
+body{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1)0%, rgba(9, 9, 121, 1)0%, rgba(0, 212, 255, 1)100%);
+}
+img{
+    border: none;
+    border-radius: 30px;
+}

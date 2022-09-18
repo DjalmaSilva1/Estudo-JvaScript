@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <form action="">
+            <fieldset>
+                <legend><h1>Video Locadora JS</h1></legend>
+                <div>
+                    <div class="row">
+                        <label>Titulo Do Filme: </label>
+                        <input type="text" id="inTitulo" placeholder="Digite o Titulo">
+                    </div>
+                    <div class="row">
+                        <label>Duraçao (min): </label>
+                        <input type="text" id="inDuracao" placeholder="Digite a Duração">
+                    </div>
+                    <div class="button"><input style="padding: 5px; border: none; border-radius: 5px; color: #fff; background-color: #ff3a08; transition: 0.3 all ease-in-out; transform: scale(1.2);" type="button" value="Coverter em horas e min" id="btConverter" ></div>
+                    <div class="row"><h2 id="outTitulo"></h2></div>
+                    <div class="row"><h2 id="outDuracao"></h2></div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+<style>
+    .content{
+        background-color: #fff;
+        width: 720px;
+        padding: 20px;
+        margin: 20px auto 0 auto;
+        box-shadow: 0px 6px 10px;
+        border-radius: 8px;
+
+    }
+    .row{
+        padding: 5px;
+    }
+    .button{
+        text-align: center;
+        margin-top: 30px;
+        
+    }
+    fieldset{
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-color: rgb(150, 150, 231);
+        box-shadow: 2px 2px 2px blue;
+    }
+legend{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label{
+    display: inline-block;
+    width: 120px;
+}
+input{
+    
+    padding: 2px;
+    border: none;
+    border-bottom: 2px solid #c2cbce;
+}
+body{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1)0%, rgba(9, 9, 121, 1)0%, rgba(0, 212, 255, 1)100%);
+}
+
+</style>
+<script src="./js/videoLocadora.js"></script>
+</html>

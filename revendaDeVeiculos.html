@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Revenda de veiculos JS</h1>
+    <div>
+        <div>
+            <label>Veiculos:</label><input type="text" id="inVeiculos">
+        </div>
+        <div>
+            <label>Preço:</label><input type="text" id="inPreco">
+        </div>
+        <div>
+            <input style="border-radius: 6px; color: white; background-color: tomato;" type="button" value="Ver Promoção" id="btPromocao">
+        </div>
+        <div><h3 id="outVeiculos"></h3></div>
+        <div><h3 id="outPromocao"></h3></div>
+        <div><h3 id="outParcela"></h3></div>
+    </div>   
+</body>
+<style>
+   label{
+    display: inline-block;
+    width: 100px;
+}
+input{ 
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin: 5px
+}
+</style>
+<script src="./js/revendaDeVeiculos.js"></script>
+</html>

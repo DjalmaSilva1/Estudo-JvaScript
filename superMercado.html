@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form action="">
+        <div>
+            <div class="form">
+                <h1>Super Mercado JS</h1>
+            </div>
+            <p>
+                <div class="form">
+                    <label>Produto:</label><input type="text" id="inproduto">
+                </div>
+            </p>
+            <p>
+                <div class="form">
+                <label>Preço:</label><input type="text" id="inpreco">
+            </div>
+            </p>
+            <p>
+                <div>
+                    <input class="button" type="button" value="ver promocao" id="btPromocao">
+                   </div>
+            </p>
+           <p><h3 id="outPreco"></h3></p>
+           <p><h3 id="outPromocao"></h3></p>
+        </div>
+    </form>
+    <style>
+        .form{
+            display: block;
+        }
+        input{
+            margin: 10px;
+        }
+        .button{
+            background-color: rgb(105, 11, 192);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+        }
+    </style>
+</body>
+
+<script src="./js/superMercado.js"></script>
+</html>

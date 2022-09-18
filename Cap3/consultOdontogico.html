@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <div><img 
+                style="float:left; 
+                height: 300px; 
+                width: 300px; " 
+                src="./img/Doctor_Dente.jpg" alt="Consultorio Odontológico">
+            </div>
+            <div><h1 style="border-bottom-style: insent;">Consultorio Odontológico</h1></div>
+            <hr/>
+            <div>
+                <label>Paciente:</label>
+                <input type="text" id="inPaciente">
+            </div>
+            <div>
+                <input style="
+                color: white; 
+                background-color: rgb(28, 146, 241); 
+                padding: 15px; 
+                border: none;
+                border-radius: 10px;
+                margin: 20px;" 
+                
+                type="button" value="Adicionar" id="btAdicionar">
+                
+                <input 
+                style="
+                color: white; 
+                background-color: rgb(241, 28, 39); 
+                padding: 15px; 
+                border: none;
+                border-radius: 10px;
+                margin: 20px;"
+
+                type="button" value="Urgência" id="btUrgencia">
+
+                <input 
+                style="
+                color: white; 
+                background-color: rgb(1, 62, 112); 
+                padding: 15px; 
+                border: none;
+                border-radius: 10px;
+                margin: 20px;"
+                type="button" value="Atender" id="btAtender">
+            </div>
+
+            <div>
+                <h2>Em Atendimento:
+                    <span id="outAtendimento"></span>
+                </h2>
+            </div>
+            <div>
+                <pre id="outLista"></pre>
+            </div>
+        </div>
+    </form>
+    <script src="./3_js/consultOdontologico.js"></script>
+</body>
+</html>
+<style>
+    label{ 
+        display: inline-block;
+        width: 100px;
+    }  
+    input{
+        padding: 4px;
+        border-radius: 6px;
+        margin: 10px
+    } 
+</style>
